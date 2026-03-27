@@ -1,625 +1,445 @@
 <!DOCTYPE html>
-<html class="scroll-smooth" lang="en">
-<head>
+
+<html class="scroll-smooth" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Southland Heating &amp; Air | Newbury Park HVAC Professionals</title>
-<meta content="AC Repair and Heating services in Newbury Park. Same-day service, 24/7 availability." name="description"/>
+<title>Verona HVAC | Santa Clarita HVAC Professionals</title>
+<meta content="AC Repair and Heating services in Santa Clarita. Same-day service, 24/7 availability." name="description"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
-  tailwind.config = {
-    darkMode: "class",
-    theme: {
-      extend: {
-        colors: {
-          "tertiary-fixed-dim": "#ffb4aa",
-          "secondary-fixed-dim": "#ffb787",
-          "on-secondary-fixed-variant": "#723600",
-          "primary-fixed-dim": "#afc8f0",
-          "on-tertiary": "#ffffff",
-          "surface-container": "#d9f2ff",
-          "primary": "#000613",
-          "surface-container-high": "#ceedfd",
-          "surface-container-lowest": "#ffffff",
-          "error": "#ba1a1a",
-          "primary-container": "#001f3f",
-          "surface-bright": "#f4faff",
-          "tertiary-container": "#470001",
-          "on-background": "#001f2a",
-          "surface-container-highest": "#c9e7f7",
-          "surface-container-low": "#e6f6ff",
-          "primary-fixed": "#d4e3ff",
-          "inverse-surface": "#163440",
-          "on-secondary": "#ffffff",
-          "on-secondary-container": "#612d00",
-          "background": "#f4faff",
-          "outline-variant": "#c4c6cf",
-          "on-error-container": "#93000a",
-          "outline": "#74777f",
-          "inverse-on-surface": "#e0f4ff",
-          "on-primary": "#ffffff",
-          "on-tertiary-container": "#fa3d33",
-          "inverse-primary": "#afc8f0",
-          "surface-variant": "#c9e7f7",
-          "on-error": "#ffffff",
-          "secondary-container": "#ff851b",
-          "on-surface-variant": "#43474e",
-          "surface-tint": "#476083",
-          "tertiary": "#160000",
-          "on-primary-fixed": "#001c3a",
-          "tertiary-fixed": "#ffdad5",
-          "on-primary-container": "#6f88ad",
-          "surface": "#f4faff",
-          "on-tertiary-fixed-variant": "#930007",
-          "on-secondary-fixed": "#311300",
-          "on-tertiary-fixed": "#410001",
-          "secondary-fixed": "#ffdcc7",
-          "error-container": "#ffdad6",
-          "secondary": "#964900",
-          "on-primary-fixed-variant": "#2f486a",
-          "surface-dim": "#c0dfee",
-          "on-surface": "#001f2a"
-        },
-        fontFamily: {
-          "headline": ["Inter"],
-          "body": ["Inter"],
-          "label": ["Inter"]
-        },
-        borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
-        animation: {
-          "marquee": "marquee 30s linear infinite",
-        },
-        keyframes: {
-          marquee: {
-            "0%": { transform: "translateX(0%)" },
-            "100%": { transform: "translateX(-50%)" },
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-fixed-dim": "#ffb4aa",
+              "secondary-fixed-dim": "#ffb787",
+              "on-secondary-fixed-variant": "#723600",
+              "primary-fixed-dim": "#afc8f0",
+              "on-tertiary": "#ffffff",
+              "surface-container": "#d9f2ff",
+              "primary": "#000613",
+              "surface-container-high": "#ceedfd",
+              "surface-container-lowest": "#ffffff",
+              "error": "#ba1a1a",
+              "primary-container": "#001f3f",
+              "surface-bright": "#f4faff",
+              "tertiary-container": "#470001",
+              "on-background": "#001f2a",
+              "surface-container-highest": "#c9e7f7",
+              "surface-container-low": "#e6f6ff",
+              "primary-fixed": "#d4e3ff",
+              "inverse-surface": "#163440",
+              "on-secondary": "#ffffff",
+              "on-secondary-container": "#612d00",
+              "background": "#f4faff",
+              "outline-variant": "#c4c6cf",
+              "on-error-container": "#93000a",
+              "outline": "#74777f",
+              "inverse-on-surface": "#e0f4ff",
+              "on-primary": "#ffffff",
+              "on-tertiary-container": "#fa3d33",
+              "inverse-primary": "#afc8f0",
+              "surface-variant": "#c9e7f7",
+              "on-error": "#ffffff",
+              "secondary-container": "#ff851b",
+              "on-surface-variant": "#43474e",
+              "surface-tint": "#476083",
+              "tertiary": "#160000",
+              "on-primary-fixed": "#001c3a",
+              "tertiary-fixed": "#ffdad5",
+              "on-primary-container": "#6f88ad",
+              "surface": "#f4faff",
+              "on-tertiary-fixed-variant": "#930007",
+              "on-secondary-fixed": "#311300",
+              "on-tertiary-fixed": "#410001",
+              "secondary-fixed": "#ffdcc7",
+              "error-container": "#ffdad6",
+              "secondary": "#964900",
+              "on-primary-fixed-variant": "#2f486a",
+              "surface-dim": "#c0dfee",
+              "on-surface": "#001f2a"
+            },
+            fontFamily: {
+              "headline": ["Inter"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
           },
         },
-      },
-    },
-  }
-</script>
+      }
+    </script>
 <style>
-  .material-symbols-outlined {
-    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-  }
-  .glass-effect {
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(20px);
-  }
-  .hide-scrollbar::-webkit-scrollbar { display: none; }
-  .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-  details > summary { list-style: none; }
-  details > summary::-webkit-details-marker { display: none; }
-</style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(20px);
+      }
+      .asymmetric-shape {
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+      }
+    </style>
 </head>
 <body class="bg-surface font-body text-on-background selection:bg-secondary-container selection:text-on-secondary-container">
-
-<!-- Emergency Banner -->
+<!-- Seasonal Emergency Banner -->
 <div class="w-full bg-tertiary-container py-3 px-4 text-center z-[60] relative overflow-hidden">
-  <p class="text-white font-label text-sm font-bold tracking-widest flex items-center justify-center gap-2 flex-wrap">
-    <span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">wb_sunny</span>
-    Summer Heat Wave — Book Your AC Tune-Up Before We Fill Up. Limited Spots Available.
-    <span class="hidden sm:inline-flex items-center gap-1 ml-4 px-3 py-0.5 bg-white/20 rounded-full text-xs">
-      <span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">emergency_home</span>
-      24/7 Emergency Available
-    </span>
-  </p>
+<p class="text-white font-label text-sm font-bold tracking-widest flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">wb_sunny</span>
+            Summer Heat Wave — Book Your AC Tune-Up Before We Fill Up. Limited Spots Available.
+        </p>
 </div>
-
-<!-- Top Navigation -->
-<header class="sticky top-0 z-50 bg-[#F4FAFF] dark:bg-[#000613] transition-colors duration-300 shadow-sm">
-  <nav class="flex justify-between items-center px-6 lg:px-8 py-4 w-full max-w-7xl mx-auto">
-    <div class="flex items-center">
-      <span class="text-xl font-bold tracking-tighter text-[#001F3F] dark:text-[#F4FAFF]">Southland Heating &amp; Air</span>
-    </div>
-    <div class="hidden md:flex items-center gap-8">
-      <a class="text-[#964900] dark:text-[#FF851B] font-bold border-b-2 border-[#964900] font-medium text-sm tracking-tight" href="#">Cooling</a>
-      <a class="text-[#001F3F] dark:text-[#F4FAFF] opacity-80 hover:text-[#964900] transition-colors duration-200 font-medium text-sm tracking-tight" href="#">Heating</a>
-      <a class="text-[#001F3F] dark:text-[#F4FAFF] opacity-80 hover:text-[#964900] transition-colors duration-200 font-medium text-sm tracking-tight" href="#">Heat Pumps</a>
-      <a class="text-[#001F3F] dark:text-[#F4FAFF] opacity-80 hover:text-[#964900] transition-colors duration-200 font-medium text-sm tracking-tight" href="#">Services</a>
-      <a class="text-[#001F3F] dark:text-[#F4FAFF] opacity-80 hover:text-[#964900] transition-colors duration-200 font-medium text-sm tracking-tight" href="#">About Us</a>
-    </div>
-    <div class="flex items-center gap-4">
-      <a class="hidden lg:block text-[#001F3F] dark:text-[#F4FAFF] font-bold text-sm" href="tel:8054986700">(805) 498-6700</a>
-      <button class="hidden md:block bg-secondary-container text-white px-6 py-2.5 rounded-lg font-bold text-sm hover:opacity-90 transition-all active:scale-95 duration-150">Contact Us</button>
-      <!-- Mobile hamburger -->
-      <button class="md:hidden p-2 text-primary-container" onclick="toggleMobileMenu()">
-        <span class="material-symbols-outlined text-3xl" id="menu-icon">menu</span>
-      </button>
-    </div>
-  </nav>
-  <!-- Mobile Menu -->
-  <div id="mobile-menu" class="hidden md:hidden bg-[#F4FAFF] border-t border-outline-variant/20 px-6 pb-6 space-y-4">
-    <a class="block py-3 text-[#964900] font-bold border-b border-outline-variant/10" href="#">Cooling</a>
-    <a class="block py-3 text-[#001F3F] font-medium border-b border-outline-variant/10" href="#">Heating</a>
-    <a class="block py-3 text-[#001F3F] font-medium border-b border-outline-variant/10" href="#">Heat Pumps</a>
-    <a class="block py-3 text-[#001F3F] font-medium border-b border-outline-variant/10" href="#">Services</a>
-    <a class="block py-3 text-[#001F3F] font-medium border-b border-outline-variant/10" href="#">About Us</a>
-    <a class="block py-3 text-[#001F3F] font-bold" href="tel:8054986700">(805) 498-6700</a>
-    <button class="w-full bg-secondary-container text-white px-6 py-3 rounded-lg font-bold text-sm">Contact Us</button>
-  </div>
-</header>
-
-<main>
-
-<!-- Hero Section -->
-<section class="relative min-h-[600px] lg:min-h-[870px] flex items-center pt-12 pb-32 md:pb-24 overflow-hidden">
-  <div class="absolute inset-0 z-0">
-    <img alt="Modern HVAC Unit" class="w-full h-full object-cover opacity-10"
-      src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB5CY1kdJRAFPlaG-aGrXQVpP4pe_xeV478iBqf5OGi9PigVoRmaJ6Grt3Fl8DjsChuEf54lnZg5ssmXVMgodNdCCuoxmULWkrAG0xesiLpYYqEx2M7OQTdZLzy6BjKhiuTr8vpgBLFlmuarevo-kPAvmppSj6hU9Lkdobi4x0bjvhf5ePrVHeKIEBYMEnV6562j8RbiusP8NnIj5scF8gLiKirON7FOcRmTzZ4Mw741ZhQi2GiA42NHVtnk-TfhqYLDC4TYN3odEM"/>
-    <div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/90 to-transparent"></div>
-  </div>
-  <div class="max-w-7xl mx-auto px-6 lg:px-8 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
-    <!-- Left: Hero copy -->
-    <div class="lg:col-span-7 space-y-8">
-      <div class="inline-flex items-center gap-2 bg-surface-container-highest px-4 py-1 rounded-full border border-outline-variant/20">
-        <span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
-        <span class="text-xs font-bold uppercase tracking-widest text-secondary">Newbury Park Dispatch Active</span>
-      </div>
-      <h1 class="text-4xl md:text-5xl lg:text-7xl font-black text-primary-container leading-[1.1] tracking-tight">
-        AC Out in<br/>Newbury Park?<br/>
-        <span class="text-secondary">Same-Day Repair</span><br/>
-        <span class="text-3xl md:text-4xl lg:text-5xl font-bold text-on-surface-variant">We Answer 24/7.</span>
-      </h1>
-      <p class="text-lg text-on-surface-variant max-w-xl leading-relaxed">
-        Don't suffer in the heat. Our factory-trained technicians are stationed across Ventura County and ready to restore your comfort within hours.
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4 pt-4">
-        <a class="flex items-center justify-center gap-3 bg-primary-container text-white px-8 py-5 rounded-lg text-xl font-black shadow-xl hover:shadow-primary-container/20 transition-all active:scale-95" href="tel:8054986700">
-          <span class="material-symbols-outlined">call</span>
-          (805) 498-6700
-        </a>
-        <button class="flex items-center justify-center gap-3 border-2 border-primary-container text-primary-container px-8 py-5 rounded-lg text-lg font-bold hover:bg-primary-container hover:text-white transition-all">
-          <span class="material-symbols-outlined">calendar_month</span>
-          Book Online
-        </button>
-      </div>
-      <!-- Trust Badges -->
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-12">
-        <div class="flex items-center gap-3">
-          <span class="material-symbols-outlined text-secondary-container text-3xl" style="font-variation-settings: 'FILL' 1;">emergency</span>
-          <span class="text-xs font-bold uppercase tracking-tighter leading-none">24/7 Emergency Service</span>
-        </div>
-        <div class="flex items-center gap-3">
-          <span class="material-symbols-outlined text-secondary-container text-3xl" style="font-variation-settings: 'FILL' 1;">verified</span>
-          <span class="text-xs font-bold uppercase tracking-tighter leading-none">20+ Years Experience</span>
-        </div>
-        <div class="flex items-center gap-3">
-          <span class="material-symbols-outlined text-secondary-container text-3xl" style="font-variation-settings: 'FILL' 1;">stars</span>
-          <span class="text-xs font-bold uppercase tracking-tighter leading-none">5-Star Local Rated</span>
-        </div>
-        <div class="flex items-center gap-3">
-          <span class="material-symbols-outlined text-secondary-container text-3xl" style="font-variation-settings: 'FILL' 1;">gavel</span>
-          <span class="text-xs font-bold uppercase tracking-tighter leading-none">Licensed &amp; Insured</span>
-        </div>
-      </div>
-    </div>
-    <!-- Right: Contact Form -->
-    <div class="lg:col-span-5">
-      <div class="bg-surface-container-lowest p-8 rounded-xl shadow-[0_40px_80px_rgba(0,31,63,0.12)] border border-outline-variant/10">
-        <div class="mb-6">
-          <h3 class="text-2xl font-bold text-primary-container">Get Your Free Estimate</h3>
-          <p class="text-sm text-secondary font-medium mt-1">Typically respond within 15 minutes</p>
-        </div>
-        <form class="space-y-4" onsubmit="handleFormSubmit(event)">
-          <div>
-            <label class="block text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1.5 ml-1">Full Name</label>
-            <input class="w-full bg-surface-container-low border-none rounded-lg p-4 focus:ring-2 focus:ring-secondary-container transition-all" placeholder="Enter your name" type="text" required/>
-          </div>
-          <div>
-            <label class="block text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1.5 ml-1">Phone Number</label>
-            <input class="w-full bg-surface-container-low border-none rounded-lg p-4 focus:ring-2 focus:ring-secondary-container transition-all" placeholder="(000) 000-0000" type="tel" required/>
-          </div>
-          <div>
-            <label class="block text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1.5 ml-1">Service Type</label>
-            <select class="w-full bg-surface-container-low border-none rounded-lg p-4 focus:ring-2 focus:ring-secondary-container transition-all appearance-none">
-              <option>AC Repair</option>
-              <option>Heating Repair</option>
-              <option>New System Installation</option>
-              <option>Maintenance Tune-Up</option>
-              <option>Emergency Service</option>
-              <option>Other</option>
-            </select>
-          </div>
-          <button class="w-full bg-secondary-container text-white py-4 rounded-lg font-black text-lg shadow-lg hover:shadow-secondary-container/30 transition-all hover:-translate-y-0.5 mt-2" type="submit">
-            GET PRIORITY DISPATCH
-          </button>
-          <p class="text-center text-[11px] text-on-surface-variant/60 pt-2 italic">
-            Your information is secured &amp; private.
-          </p>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Reviews Section -->
-<section class="bg-surface-container-low py-20">
-  <div class="max-w-7xl mx-auto px-6 lg:px-8">
-    <div class="text-center mb-16">
-      <div class="flex justify-center gap-1 mb-4">
-        <span class="material-symbols-outlined text-[#FFD700]" style="font-variation-settings: 'FILL' 1;">star</span>
-        <span class="material-symbols-outlined text-[#FFD700]" style="font-variation-settings: 'FILL' 1;">star</span>
-        <span class="material-symbols-outlined text-[#FFD700]" style="font-variation-settings: 'FILL' 1;">star</span>
-        <span class="material-symbols-outlined text-[#FFD700]" style="font-variation-settings: 'FILL' 1;">star</span>
-        <span class="material-symbols-outlined text-[#FFD700]" style="font-variation-settings: 'FILL' 1;">star</span>
-      </div>
-      <h2 class="text-3xl font-black text-primary-container">4.8 Stars — Trusted by 200+ Homeowners</h2>
-      <p class="text-on-surface-variant mt-2 font-medium">Across Ventura &amp; LA County</p>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 relative">
-        <span class="material-symbols-outlined absolute top-4 right-4 text-secondary/10 text-6xl">format_quote</span>
-        <p class="text-on-surface italic mb-6 leading-relaxed relative z-10">"AC died in the middle of a 100-degree week. Southland was here in 2 hours and had it fixed before lunch. Lifesavers!"</p>
-        <div class="flex items-center gap-4">
-          <div class="w-10 h-10 rounded-full bg-primary-container text-white flex items-center justify-center font-bold">M</div>
-          <div>
-            <p class="font-bold text-sm">Mark T.</p>
-            <p class="text-xs text-on-surface-variant">Newbury Park, CA</p>
-          </div>
-        </div>
-      </div>
-      <div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 relative">
-        <span class="material-symbols-outlined absolute top-4 right-4 text-secondary/10 text-6xl">format_quote</span>
-        <p class="text-on-surface italic mb-6 leading-relaxed relative z-10">"Very professional and clean. They explained everything they were doing and didn't try to upsell me on parts I didn't need."</p>
-        <div class="flex items-center gap-4">
-          <div class="w-10 h-10 rounded-full bg-secondary text-white flex items-center justify-center font-bold">S</div>
-          <div>
-            <p class="font-bold text-sm">Sarah L.</p>
-            <p class="text-xs text-on-surface-variant">Thousand Oaks, CA</p>
-          </div>
-        </div>
-      </div>
-      <div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 relative">
-        <span class="material-symbols-outlined absolute top-4 right-4 text-secondary/10 text-6xl">format_quote</span>
-        <p class="text-on-surface italic mb-6 leading-relaxed relative z-10">"The NATE certified technician was very knowledgeable. Best HVAC experience I've had in years. Highly recommend!"</p>
-        <div class="flex items-center gap-4">
-          <div class="w-10 h-10 rounded-full bg-primary-container text-white flex items-center justify-center font-bold">D</div>
-          <div>
-            <p class="font-bold text-sm">David R.</p>
-            <p class="text-xs text-on-surface-variant">Simi Valley, CA</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Services Bento Grid -->
-<section class="py-24">
-  <div class="max-w-7xl mx-auto px-6 lg:px-8">
-    <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
-      <div class="max-w-2xl">
-        <p class="text-secondary font-bold uppercase tracking-widest text-xs mb-4">Precision Engineering</p>
-        <h2 class="text-4xl md:text-5xl font-black text-primary-container">Professional Climate Solutions</h2>
-      </div>
-      <a class="text-primary-container font-bold border-b-2 border-primary-container pb-1 hover:text-secondary hover:border-secondary transition-all" href="#">View All Services</a>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-      <!-- AC Card - Large -->
-      <div class="md:col-span-2 md:row-span-2 group relative overflow-hidden rounded-2xl bg-primary-container min-h-[400px]">
-        <img alt="Air Conditioning" class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-110 transition-transform duration-700"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuBes99jjPV_l13NTG5vjOZCvO2Pd0-LazpnoCGFb-SMKKIycKxaqvkQz-ifjPXCq17tCfxQmMMoV-aiP-9ItAN50IqTkXOJa3qGYgepVPgtUtRmG66uPszOyT0Db6uHkvYI_EcSkxKxEn1AHVKyyC6PPXgXLngUutFSa_G1cGen-rMdoJFVD0Ly4hJPeUeBkuXqZGt_TE2hcn64gzDhJ_XyLcgKHu8HdCR-3PzKwltfFgOVX6mNphGN3s_8ODzo5MJtKFl3Tn3lmAIU"/>
-        <div class="absolute inset-0 bg-gradient-to-t from-primary-container via-transparent to-transparent"></div>
-        <div class="absolute bottom-0 left-0 p-10">
-          <h3 class="text-3xl font-black text-white mb-2">Cooling Systems</h3>
-          <p class="text-white/80 max-w-sm mb-6">Expert repair, installation, and precision maintenance for all major AC brands.</p>
-          <button class="bg-secondary-container text-white px-6 py-3 rounded-lg font-bold text-sm flex items-center gap-2 group-hover:gap-4 transition-all">
-            Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span>
-          </button>
-        </div>
-      </div>
-      <!-- Heating Card -->
-      <div class="md:col-span-2 group relative overflow-hidden rounded-2xl bg-surface-container-low min-h-[190px]">
-        <div class="flex h-full">
-          <div class="w-1/2 p-8 flex flex-col justify-center">
-            <h3 class="text-2xl font-black text-primary-container mb-2">Heating &amp; Furnace</h3>
-            <p class="text-on-surface-variant text-sm mb-4">Keeping your home cozy during the cooler canyon nights.</p>
-            <a class="text-secondary font-bold text-sm flex items-center gap-1" href="#">Repair Now <span class="material-symbols-outlined text-sm">chevron_right</span></a>
-          </div>
-          <div class="w-1/2 relative">
-            <img alt="Heating" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAetl-IzJyN6tNUWG4-DeuPS5TdO9ihxBKDNvTNhPFHuwQHCmgbGf8PB2C9yYpB6S9GQ7swPdwoyTTxFgUNgWho1Bn32aD6LYE9V04aMNHEfDLbUeTvqXDEwEdktdvD_3HnoIEQnONzT7z8k9jZdH6NSoCgXwwXGzYi_c_E23DjnxnVO70xzN700pOzx6yCygGed7-DhP2LMtRIVcY7UInZ_Or-f6SzVaJOb-GWjqIF4eXQHNYnvBPzqeYjd63yL6QP9C4fuDMO6QzH"/>
-          </div>
-        </div>
-      </div>
-      <!-- Heat Pumps -->
-      <div class="group relative overflow-hidden rounded-2xl bg-surface-container-high min-h-[190px]">
-        <div class="p-8 h-full flex flex-col">
-          <span class="material-symbols-outlined text-4xl text-primary-container mb-4">eco</span>
-          <h3 class="text-xl font-black text-primary-container mb-2">Heat Pumps</h3>
-          <p class="text-on-surface-variant text-xs flex-grow">Eco-friendly electric heating and cooling all-in-one solutions.</p>
-          <a class="text-secondary font-bold text-sm flex items-center gap-1 mt-4" href="#">Learn More <span class="material-symbols-outlined text-sm">chevron_right</span></a>
-        </div>
-      </div>
-      <!-- Air Quality -->
-      <div class="group relative overflow-hidden rounded-2xl bg-surface-container-highest min-h-[190px]">
-        <div class="p-8 h-full flex flex-col">
-          <span class="material-symbols-outlined text-4xl text-primary-container mb-4">airwave</span>
-          <h3 class="text-xl font-black text-primary-container mb-2">Air Quality</h3>
-          <p class="text-on-surface-variant text-xs flex-grow">Purification systems and duct cleaning for a healthier home.</p>
-          <a class="text-secondary font-bold text-sm flex items-center gap-1 mt-4" href="#">Learn More <span class="material-symbols-outlined text-sm">chevron_right</span></a>
-        </div>
-      </div>
-    </div>
-    <!-- Additional Services -->
-    <div class="mt-6 bg-surface-container-low p-8 rounded-2xl border border-outline-variant/10">
-      <h3 class="text-xl font-bold text-primary-container mb-4 text-center">More Services</h3>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
-        <span class="bg-surface-container-lowest py-3 px-4 rounded-lg text-xs font-bold text-primary-container text-center">Duct Cleaning</span>
-        <span class="bg-surface-container-lowest py-3 px-4 rounded-lg text-xs font-bold text-primary-container text-center">Air Filters</span>
-        <span class="bg-surface-container-lowest py-3 px-4 rounded-lg text-xs font-bold text-primary-container text-center">Thermostats</span>
-        <span class="bg-surface-container-lowest py-3 px-4 rounded-lg text-xs font-bold text-primary-container text-center">Maintenance Plans</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- VIP Membership -->
-<section class="py-24 bg-primary-container relative overflow-hidden">
-  <div class="absolute inset-0 opacity-10">
-    <div class="absolute -top-24 -left-24 w-96 h-96 bg-secondary-container rounded-full blur-[120px]"></div>
-    <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-primary-fixed rounded-full blur-[120px]"></div>
-  </div>
-  <div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-    <div>
-      <span class="inline-block bg-secondary-container text-white px-4 py-1 rounded-full text-[10px] font-black tracking-widest uppercase mb-6">VIP Exclusive</span>
-      <h2 class="text-5xl font-black text-white leading-tight mb-8">Join the <br/><span class="text-secondary-container underline decoration-8 underline-offset-8">Southland VIP Club</span></h2>
-      <div class="space-y-6">
-        <div class="flex gap-4">
-          <span class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0">
-            <span class="material-symbols-outlined text-secondary-container text-sm" style="font-variation-settings: 'FILL' 1;">priority_high</span>
-          </span>
-          <div>
-            <p class="text-white font-bold">Priority Front-of-Line Service</p>
-            <p class="text-white/60 text-sm">Jump to the front of the dispatch queue even during heat waves.</p>
-          </div>
-        </div>
-        <div class="flex gap-4">
-          <span class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0">
-            <span class="material-symbols-outlined text-secondary-container text-sm" style="font-variation-settings: 'FILL' 1;">percent</span>
-          </span>
-          <div>
-            <p class="text-white font-bold">15% Discount on All Repairs</p>
-            <p class="text-white/60 text-sm">Save hundreds on parts and labor for any service call.</p>
-          </div>
-        </div>
-        <div class="flex gap-4">
-          <span class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0">
-            <span class="material-symbols-outlined text-secondary-container text-sm" style="font-variation-settings: 'FILL' 1;">history_edu</span>
-          </span>
-          <div>
-            <p class="text-white font-bold">Annual Maintenance Included</p>
-            <p class="text-white/60 text-sm">Free heating and cooling inspections to extend system life.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-12 rounded-3xl text-center">
-      <p class="text-white/80 uppercase tracking-widest text-xs font-bold mb-4">Monthly Plan</p>
-      <div class="flex items-center justify-center gap-1 mb-8">
-        <span class="text-2xl font-bold text-white self-start mt-2">$</span>
-        <span class="text-8xl font-black text-white tracking-tighter">19</span>
-        <span class="text-xl font-bold text-white/60 self-end mb-4">/mo</span>
-      </div>
-      <button class="w-full bg-white text-primary-container py-5 rounded-xl font-black text-xl hover:bg-secondary-container hover:text-white transition-all shadow-2xl">
-        JOIN TODAY
-      </button>
-      <p class="text-white/40 text-xs mt-6">Cancel anytime. Terms and conditions apply.</p>
-    </div>
-  </div>
-</section>
-
-<!-- Marquee Trust Bar -->
-<section class="py-12 bg-white border-y border-outline-variant/10 overflow-hidden">
-  <div class="relative flex overflow-x-hidden">
-    <div class="flex whitespace-nowrap gap-12 items-center animate-marquee">
-      <div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest px-4">
-        <span class="material-symbols-outlined text-secondary">verified</span> 20+ YEARS IN BUSINESS
-      </div>
-      <div class="w-2 h-2 rounded-full bg-outline-variant/30 shrink-0"></div>
-      <div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest px-4">
-        <span class="material-symbols-outlined text-secondary">settings</span> 500+ SYSTEMS INSTALLED
-      </div>
-      <div class="w-2 h-2 rounded-full bg-outline-variant/30 shrink-0"></div>
-      <div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest px-4">
-        <span class="material-symbols-outlined text-secondary">thumb_up</span> 200+ FIVE-STAR REVIEWS
-      </div>
-      <div class="w-2 h-2 rounded-full bg-outline-variant/30 shrink-0"></div>
-      <div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest px-4">
-        <span class="material-symbols-outlined text-secondary">workspace_premium</span> BBB A+ RATED
-      </div>
-      <div class="w-2 h-2 rounded-full bg-outline-variant/30 shrink-0"></div>
-      <div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest px-4">
-        <span class="material-symbols-outlined text-secondary">engineering</span> NATE CERTIFIED TECHNICIANS
-      </div>
-      <!-- Duplicate for seamless loop -->
-      <div class="w-2 h-2 rounded-full bg-outline-variant/30 shrink-0"></div>
-      <div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest px-4">
-        <span class="material-symbols-outlined text-secondary">verified</span> 20+ YEARS IN BUSINESS
-      </div>
-      <div class="w-2 h-2 rounded-full bg-outline-variant/30 shrink-0"></div>
-      <div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest px-4">
-        <span class="material-symbols-outlined text-secondary">settings</span> 500+ SYSTEMS INSTALLED
-      </div>
-      <div class="w-2 h-2 rounded-full bg-outline-variant/30 shrink-0"></div>
-      <div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest px-4">
-        <span class="material-symbols-outlined text-secondary">thumb_up</span> 200+ FIVE-STAR REVIEWS
-      </div>
-      <div class="w-2 h-2 rounded-full bg-outline-variant/30 shrink-0"></div>
-      <div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest px-4">
-        <span class="material-symbols-outlined text-secondary">workspace_premium</span> BBB A+ RATED
-      </div>
-      <div class="w-2 h-2 rounded-full bg-outline-variant/30 shrink-0"></div>
-      <div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest px-4">
-        <span class="material-symbols-outlined text-secondary">engineering</span> NATE CERTIFIED TECHNICIANS
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Service Areas & FAQ -->
-<section class="py-24 bg-surface">
-  <div class="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-20">
-    <!-- Service Areas -->
-    <div>
-      <h2 class="text-4xl font-black text-primary-container mb-8">Serving Your Community</h2>
-      <div class="grid grid-cols-2 gap-4">
-        <div class="bg-surface-container-low p-4 rounded-lg font-bold text-primary-container flex items-center gap-3">
-          <span class="material-symbols-outlined text-secondary text-lg">location_on</span> Newbury Park
-        </div>
-        <div class="bg-surface-container-low p-4 rounded-lg font-bold text-primary-container flex items-center gap-3">
-          <span class="material-symbols-outlined text-secondary text-lg">location_on</span> Thousand Oaks
-        </div>
-        <div class="bg-surface-container-low p-4 rounded-lg font-bold text-primary-container flex items-center gap-3">
-          <span class="material-symbols-outlined text-secondary text-lg">location_on</span> Simi Valley
-        </div>
-        <div class="bg-surface-container-low p-4 rounded-lg font-bold text-primary-container flex items-center gap-3">
-          <span class="material-symbols-outlined text-secondary text-lg">location_on</span> Westlake Village
-        </div>
-        <div class="bg-surface-container-low p-4 rounded-lg font-bold text-primary-container flex items-center gap-3">
-          <span class="material-symbols-outlined text-secondary text-lg">location_on</span> Camarillo
-        </div>
-        <div class="bg-surface-container-low p-4 rounded-lg font-bold text-primary-container flex items-center gap-3">
-          <span class="material-symbols-outlined text-secondary text-lg">location_on</span> Agoura Hills
-        </div>
-      </div>
-      <div class="mt-12 rounded-2xl overflow-hidden grayscale contrast-125 border border-outline-variant/20 shadow-lg">
-        <img alt="Service Map" class="w-full h-48 object-cover"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuA35YnahQUZdglHiJWvCf_YQtfyqI65Q2dn1Xxv9vMFrDtJqRogamypZUYcnigifyEHHZU0wy8rE1F5c-rYo46cGUgmThEbV2qEYH9aM8eZYncYcByezmqHNrQ0lKATWYLMafo3xjM2eN1gjAAlPCaNAQ3brOlSgfEaLd-Y9VY5dHFQKSaJ-EJhBOsjtiwM5iA4nAKyptFZDergEA38-Wt6ZV7rbjpe8DS93wJebSnwpqJ8jV4EooLHKyth5jqmsVa1vOfvIvaPBXgh"/>
-      </div>
-    </div>
-    <!-- FAQ -->
-    <div>
-      <h2 class="text-4xl font-black text-primary-container mb-8">Common Questions</h2>
-      <div class="space-y-4">
-        <details class="group bg-surface-container-lowest border border-outline-variant/10 rounded-xl overflow-hidden" open>
-          <summary class="flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container-low transition-colors">
-            <span class="font-bold text-primary-container">How quickly can you get to my home?</span>
-            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
-          </summary>
-          <div class="p-6 pt-0 text-on-surface-variant text-sm leading-relaxed">
-            For AC and heating emergencies, we typically have a technician on-site in Newbury Park or Thousand Oaks within 2-4 hours. We offer 24/7 dispatching.
-          </div>
-        </details>
-        <details class="group bg-surface-container-lowest border border-outline-variant/10 rounded-xl overflow-hidden">
-          <summary class="flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container-low transition-colors">
-            <span class="font-bold text-primary-container">Do you offer financing for new systems?</span>
-            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
-          </summary>
-          <div class="p-6 pt-0 text-on-surface-variant text-sm leading-relaxed">
-            Yes! We offer flexible financing options with low monthly payments for all new system installations. Ask your technician about our current HERO and PACE programs.
-          </div>
-        </details>
-        <details class="group bg-surface-container-lowest border border-outline-variant/10 rounded-xl overflow-hidden">
-          <summary class="flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container-low transition-colors">
-            <span class="font-bold text-primary-container">What brands do you service?</span>
-            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
-          </summary>
-          <div class="p-6 pt-0 text-on-surface-variant text-sm leading-relaxed">
-            We are factory-authorized dealers for major brands but our technicians are NATE-certified to repair all makes and models including Carrier, Trane, Lennox, Goodman, and Rheem.
-          </div>
-        </details>
-        <details class="group bg-surface-container-lowest border border-outline-variant/10 rounded-xl overflow-hidden">
-          <summary class="flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container-low transition-colors">
-            <span class="font-bold text-primary-container">Are your technicians licensed?</span>
-            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
-          </summary>
-          <div class="p-6 pt-0 text-on-surface-variant text-sm leading-relaxed">
-            Absolutely. All Southland technicians are NATE-certified, fully licensed, bonded, and insured in the state of California. We background-check every team member.
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</section>
-
-</main>
-
-<!-- Footer -->
-<footer class="w-full bg-[#001F3F] dark:bg-[#000613] text-[#F4FAFF] text-sm leading-relaxed py-20 px-8 flex flex-col items-center text-center gap-8">
-  <div class="text-3xl font-black text-white">Southland Heating &amp; Air</div>
-  <div class="flex flex-wrap justify-center gap-8">
-    <a class="text-[#F4FAFF]/70 hover:text-white transition-colors" href="#">Offers</a>
-    <a class="text-[#F4FAFF]/70 hover:text-white transition-colors" href="#">Services</a>
-    <a class="text-[#F4FAFF]/70 hover:text-white transition-colors" href="#">Contact Us</a>
-    <a class="text-[#F4FAFF]/70 hover:text-white transition-colors" href="#">Privacy Policy</a>
-  </div>
-  <div class="flex gap-6 mt-4">
-    <a href="#" class="text-[#F4FAFF]/70 hover:text-secondary-container transition-all">
-      <span class="material-symbols-outlined">thumb_up</span>
-    </a>
-    <a href="#" class="text-[#F4FAFF]/70 hover:text-secondary-container transition-all">
-      <span class="material-symbols-outlined">star_rate</span>
-    </a>
-    <a href="#" class="text-[#F4FAFF]/70 hover:text-secondary-container transition-all">
-      <span class="material-symbols-outlined">chat</span>
-    </a>
-  </div>
-  <div class="max-w-2xl text-[#F4FAFF]/50 mt-8">
-    © 2024 Southland Heating &amp; Air. Newbury Park HVAC Professionals. Licensed, Bonded, and Insured. All rights reserved.
-  </div>
-</footer>
-
-<!-- Mobile Bottom Nav -->
-<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-6 pb-4 pt-2 md:hidden bg-white/70 dark:bg-[#001F3F]/70 backdrop-blur-md border-t border-[#001F3F]/10 shadow-[0_-20px_40px_rgba(0,31,63,0.06)] rounded-t-2xl">
-  <div class="grid grid-cols-2 w-full gap-3">
-    <a class="flex items-center justify-center gap-2 bg-primary-container text-white rounded-xl py-4 font-bold uppercase text-[10px] tracking-widest" href="tel:8054986700">
-      <span class="material-symbols-outlined text-lg">call</span>
-      Call Now
-    </a>
-    <a class="flex items-center justify-center gap-2 bg-secondary-container text-white rounded-xl py-4 font-bold uppercase text-[10px] tracking-widest shadow-lg" href="#">
-      <span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">calendar_month</span>
-      Book Online
-    </a>
-  </div>
+<!-- TopAppBar Shell -->
+<header class="sticky top-0 z-50 bg-[#F4FAFF] dark:bg-[#000613] transition-colors duration-300">
+<nav class="flex justify-between items-center px-8 py-4 w-full max-w-7xl mx-auto">
+<div class="flex items-center">
+<span class="text-xl font-bold tracking-tighter text-[#001F3F] dark:text-[#F4FAFF]">Verona HVAC</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-[#964900] dark:text-[#FF851B] font-bold border-b-2 border-[#964900] font-['Inter'] font-medium text-sm tracking-tight" href="#">Cooling</a>
+<a class="text-[#001F3F] dark:text-[#F4FAFF] opacity-80 hover:text-[#964900] transition-colors duration-200 font-['Inter'] font-medium text-sm tracking-tight" href="#">Heating</a>
+<a class="text-[#001F3F] dark:text-[#F4FAFF] opacity-80 hover:text-[#964900] transition-colors duration-200 font-['Inter'] font-medium text-sm tracking-tight" href="#">Heat Pumps</a>
+<a class="text-[#001F3F] dark:text-[#F4FAFF] opacity-80 hover:text-[#964900] transition-colors duration-200 font-['Inter'] font-medium text-sm tracking-tight" href="#">Services</a>
+<a class="text-[#001F3F] dark:text-[#F4FAFF] opacity-80 hover:text-[#964900] transition-colors duration-200 font-['Inter'] font-medium text-sm tracking-tight" href="#">Products</a>
+<a class="text-[#001F3F] dark:text-[#F4FAFF] opacity-80 hover:text-[#964900] transition-colors duration-200 font-['Inter'] font-medium text-sm tracking-tight" href="#">About Us</a>
+</div>
+<div class="flex items-center gap-4">
+<a class="hidden lg:block text-[#001F3F] dark:text-[#F4FAFF] font-bold font-['Inter'] text-sm" href="tel:6614499765">661-449-9765</a>
+<button class="bg-secondary-container text-white px-6 py-2.5 rounded-lg font-bold text-sm hover:opacity-90 transition-all scale-95 active:scale-90 duration-150">Contact Us</button>
+</div>
 </nav>
-
-<!-- Desktop Chat Widget -->
-<button class="fixed bottom-8 right-8 z-[100] bg-secondary text-white px-6 py-4 rounded-full shadow-2xl items-center gap-3 hover:-translate-y-1 transition-all hidden lg:flex">
-  <div class="relative">
-    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">chat</span>
-    <span class="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full border-2 border-secondary"></span>
-  </div>
-  <div class="text-left">
-    <p class="text-[10px] font-bold uppercase leading-none opacity-80">Online Now</p>
-    <p class="text-sm font-black">Chat With Us</p>
-  </div>
-</button>
-
-<!-- Mobile Chat Widget -->
-<button class="fixed bottom-24 right-6 z-40 w-14 h-14 bg-primary-container text-white rounded-full shadow-2xl flex items-center justify-center border-4 border-surface overflow-hidden md:hidden">
-  <span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">chat_bubble</span>
-</button>
-
-<!-- Toast notification for form -->
-<div id="toast" class="fixed top-24 left-1/2 -translate-x-1/2 z-[200] bg-primary-container text-white px-8 py-4 rounded-xl shadow-2xl font-bold text-sm opacity-0 pointer-events-none transition-all duration-300 flex items-center gap-3">
-  <span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">check_circle</span>
-  Request received! We'll call you back within 15 minutes.
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-[870px] flex items-center pt-12 pb-24 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Modern HVAC Unit" class="w-full h-full object-cover opacity-10" data-alt="Modern high-efficiency central air conditioning outdoor unit installed on a clean residential patio with soft morning sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB5CY1kdJRAFPlaG-aGrXQVpP4pe_xeV478iBqf5OGi9PigVoRmaJ6Grt3Fl8DjsChuEf54lnZg5ssmXVMgodNdCCuoxmULWkrAG0xesiLpYYqEx2M7OQTdZLzy6BjKhiuTr8vpgBLFlmuarevo-kPAvmppSj6hU9Lkdobi4x0bjvhf5ePrVHeKIEBYMEnV6562j8RbiusP8NnIj5scF8gLiKirON7FOcRmTzZ4Mw741ZhQi2GiA42NHVtnk-TfhqYLDC4TYN3odEM"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/90 to-transparent"></div>
 </div>
-
-<script>
-  function toggleMobileMenu() {
-    const menu = document.getElementById('mobile-menu');
-    const icon = document.getElementById('menu-icon');
-    menu.classList.toggle('hidden');
-    icon.textContent = menu.classList.contains('hidden') ? 'menu' : 'close';
-  }
-
-  function handleFormSubmit(e) {
-    e.preventDefault();
-    const toast = document.getElementById('toast');
-    toast.style.opacity = '1';
-    toast.style.transform = 'translateX(-50%) translateY(0)';
-    setTimeout(() => {
-      toast.style.opacity = '0';
-    }, 3500);
-    e.target.reset();
-  }
-</script>
-
-</body>
-</html>
+<div class="max-w-7xl mx-auto px-8 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+<div class="lg:col-span-7 space-y-8">
+<div class="inline-flex items-center gap-2 bg-surface-container-highest px-4 py-1 rounded-full border border-outline-variant/20">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+<span class="text-xs font-bold uppercase tracking-widest text-secondary">Santa Clarita Dispatch Active</span>
+</div>
+<h1 class="text-5xl lg:text-7xl font-black text-primary-container leading-[1.1] tracking-tight">AC Out in Santa Clarita? <br/>
+<span class="text-secondary">Same-Day Repair</span> — We Answer 24/7.</h1>
+<p class="text-lg text-on-surface-variant max-w-xl leading-relaxed">Don't suffer in the heat. Our factory-trained technicians are stationed across Santa Clarita, Valencia, Stevenson Ranch, Canyon Country, Simi Valley, Newhall, and Castaic and ready to restore your comfort within hours.</p>
+<div class="flex flex-col sm:flex-row gap-4 pt-4">
+<a class="flex items-center justify-center gap-3 bg-primary-container text-white px-8 py-5 rounded-lg text-xl font-black shadow-xl hover:shadow-primary-container/20 transition-all active:scale-95" href="tel:6614499765">661-449-9765</a>
+<button class="flex items-center justify-center gap-3 border-2 border-primary-container text-primary-container px-8 py-5 rounded-lg text-lg font-bold hover:bg-primary-container hover:text-white transition-all">
+<span class="material-symbols-outlined">calendar_month</span>
+                            Book Online
+                        </button>
+</div>
+<!-- Trust Badges -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-12">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary-container text-3xl" style="font-variation-settings: 'FILL' 1;">emergency</span>
+<span class="text-xs font-bold uppercase tracking-tighter leading-none">24/7 Emergency Service</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary-container text-3xl" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="text-xs font-bold uppercase tracking-tighter leading-none">13+ Years Experience</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary-container text-3xl" style="font-variation-settings: 'FILL' 1;">stars</span>
+<span class="text-xs font-bold uppercase tracking-tighter leading-none">5-Star Local Rated</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary-container text-3xl" style="font-variation-settings: 'FILL' 1;">gavel</span>
+<span class="text-xs font-bold uppercase tracking-tighter leading-none">Licensed &amp; Insured</span>
+</div>
+</div>
+</div>
+<!-- Contact Form Overlay -->
+<div class="lg:col-span-5">
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-[0_40px_80px_rgba(0,31,63,0.12)] border border-outline-variant/10">
+<div class="mb-6">
+<h3 class="text-2xl font-bold text-primary-container">Get Your Free Estimate</h3>
+<p class="text-sm text-secondary font-medium mt-1">Typically respond within 15 minutes</p>
+</div>
+<form class="space-y-4">
+<div>
+<label class="block text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1.5 ml-1">Full Name</label>
+<input class="w-full bg-surface-container-low border-none rounded-lg p-4 focus:ring-2 focus:ring-secondary-container transition-all" placeholder="Enter your name" type="text"/>
+</div>
+<div>
+<label class="block text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1.5 ml-1">Phone Number</label>
+<input class="w-full bg-surface-container-low border-none rounded-lg p-4 focus:ring-2 focus:ring-secondary-container transition-all" placeholder="(000) 000-0000" type="tel"/>
+</div>
+<div>
+<label class="block text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1.5 ml-1">Service Type</label>
+<select class="w-full bg-surface-container-low border-none rounded-lg p-4 focus:ring-2 focus:ring-secondary-container transition-all appearance-none">
+<option>AC Repair</option>
+<option>Heating Repair</option>
+<option>New System Installation</option>
+<option>Maintenance Tune-Up</option>
+<option>Emergency Service</option>
+<option>Other</option>
+</select>
+</div>
+<button class="w-full bg-secondary-container text-white py-4 rounded-lg font-black text-lg shadow-lg hover:shadow-secondary-container/30 transition-all hover:-translate-y-0.5 mt-2">
+                                GET PRIORITY DISPATCH
+                            </button>
+<p class="text-center text-[11px] text-on-surface-variant/60 pt-2 italic">
+                                Your information is secured &amp; private.
+                            </p>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Social Proof Carousel -->
+<section class="bg-surface-container-low py-20">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-16">
+<div class="flex justify-center gap-1 mb-4">
+<span class="material-symbols-outlined text-[#FFD700]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[#FFD700]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[#FFD700]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[#FFD700]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[#FFD700]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<h2 class="text-3xl font-black text-primary-container">⭐ 4.8 Stars — Santa Clarita's Trusted HVAC Company Since 2012</h2>
+<p class="text-on-surface-variant mt-2 font-medium">Across Santa Clarita, Valencia, Stevenson Ranch, Canyon Country, Simi Valley, Newhall, and Castaic</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Review Card 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 relative">
+<span class="material-symbols-outlined absolute top-4 right-4 text-secondary/10 text-6xl">format_quote</span>
+<p class="text-on-surface italic mb-6 leading-relaxed relative z-10">"AC died in the middle of a 100-degree week. Southland was here in 2 hours and had it fixed before lunch. Lifesavers!"</p>
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-primary-container text-white flex items-center justify-center font-bold">M</div>
+<div>
+<p class="font-bold text-sm">Mark T.</p>
+<p class="text-xs text-on-surface-variant">Santa Clarita, CA</p>
+</div>
+</div>
+</div>
+<!-- Review Card 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 relative">
+<span class="material-symbols-outlined absolute top-4 right-4 text-secondary/10 text-6xl">format_quote</span>
+<p class="text-on-surface italic mb-6 leading-relaxed relative z-10">"Very professional and clean. They explained everything they were doing and didn't try to upsell me on parts I didn't need."</p>
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-primary-container text-white flex items-center justify-center font-bold">S</div>
+<div>
+<p class="font-bold text-sm">Sarah L.</p>
+<p class="text-xs text-on-surface-variant">Thousand Oaks, CA</p>
+</div>
+</div>
+</div>
+<!-- Review Card 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 relative">
+<span class="material-symbols-outlined absolute top-4 right-4 text-secondary/10 text-6xl">format_quote</span>
+<p class="text-on-surface italic mb-6 leading-relaxed relative z-10">"The NATE certified technician was very knowledgeable. Best HVAC experience I've had in years. Highly recommend!"</p>
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-primary-container text-white flex items-center justify-center font-bold">D</div>
+<div>
+<p class="font-bold text-sm">David R.</p>
+<p class="text-xs text-on-surface-variant">Simi Valley, CA</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Premium Services Bento Grid -->
+<section class="py-24">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div class="max-w-2xl">
+<p class="text-secondary font-bold uppercase tracking-widest text-xs mb-4">Precision Engineering</p>
+<h2 class="text-4xl md:text-5xl font-black text-primary-container">Professional Climate Solutions</h2>
+</div>
+<a class="text-primary-container font-bold border-b-2 border-primary-container pb-1 hover:text-secondary hover:border-secondary transition-all" href="#">View All Services</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-6 h-auto md:h-[600px]">
+<!-- AC Card -->
+<div class="md:col-span-2 md:row-span-2 group relative overflow-hidden rounded-2xl bg-primary-container">
+<img alt="Air Conditioning" class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-110 transition-transform duration-700" data-alt="Professional HVAC technician wearing gloves inspecting the wiring of a modern outdoor air conditioning unit" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBes99jjPV_l13NTG5vjOZCvO2Pd0-LazpnoCGFb-SMKKIycKxaqvkQz-ifjPXCq17tCfxQmMMoV-aiP-9ItAN50IqTkXOJa3qGYgepVPgtUtRmG66uPszOyT0Db6uHkvYI_EcSkxKxEn1AHVKyyC6PPXgXLngUutFSa_G1cGen-rMdoJFVD0Ly4hJPeUeBkuXqZGt_TE2hcn64gzDhJ_XyLcgKHu8HdCR-3PzKwltfFgOVX6mNphGN3s_8ODzo5MJtKFl3Tn3lmAIU"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container via-transparent to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-10">
+<h3 class="text-3xl font-black text-white mb-2">Cooling Systems</h3>
+<p class="text-white/80 max-w-sm mb-6">Expert repair, installation, and precision maintenance for all major AC brands.</p>
+<button class="bg-secondary-container text-white px-6 py-3 rounded-lg font-bold text-sm flex items-center gap-2 group-hover:gap-4 transition-all">
+                                Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Heating Card -->
+<div class="md:col-span-2 group relative overflow-hidden rounded-2xl bg-surface-container-low">
+<div class="flex h-full">
+<div class="w-1/2 p-8 flex flex-col justify-center">
+<h3 class="text-2xl font-black text-primary-container mb-2">Heating &amp; Furnace</h3>
+<p class="text-on-surface-variant text-sm mb-4">Keeping your home cozy during the cooler canyon nights.</p>
+<a class="text-secondary font-bold text-sm flex items-center gap-1" href="#">Repair Now <span class="material-symbols-outlined text-sm">chevron_right</span></a>
+</div>
+<div class="w-1/2 relative">
+<img alt="Heating" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close-up of a high-tech smart thermostat displaying a warm orange glow for house heating" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAetl-IzJyN6tNUWG4-DeuPS5TdO9ihxBKDNvTNhPFHuwQHCmgbGf8PB2C9yYpB6S9GQ7swPdwoyTTxFgUNgWho1Bn32aD6LYE9V04aMNHEfDLbUeTvqXDEwEdktdvD_3HnoIEQnONzT7z8k9jZdH6NSoCgXwwXGzYi_c_E23DjnxnVO70xzN700pOzx6yCygGed7-DhP2LMtRIVcY7UInZ_Or-f6SzVaJOb-GWjqIF4eXQHNYnvBPzqeYjd63yL6QP9C4fuDMO6QzH"/>
+</div>
+</div>
+</div>
+<!-- Heat Pumps -->
+<div class="group relative overflow-hidden rounded-2xl bg-surface-container-high">
+<div class="p-8 h-full flex flex-col">
+<span class="material-symbols-outlined text-4xl text-primary-container mb-4">eco</span>
+<h3 class="text-xl font-black text-primary-container mb-2">Heat Pumps</h3>
+<p class="text-on-surface-variant text-xs flex-grow">Eco-friendly electric heating and cooling all-in-one solutions.</p>
+</div>
+</div>
+<!-- IAQ -->
+<div class="group relative overflow-hidden rounded-2xl bg-surface-container-highest">
+<div class="p-8 h-full flex flex-col">
+<span class="material-symbols-outlined text-4xl text-primary-container mb-4">airwave</span>
+<h3 class="text-xl font-black text-primary-container mb-2">Air Quality</h3>
+<p class="text-on-surface-variant text-xs flex-grow">Purification systems and duct cleaning for a healthier home.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- VIP Membership Section -->
+<section class="py-24 bg-primary-container relative overflow-hidden">
+<div class="absolute inset-0 opacity-10">
+<div class="absolute -top-24 -left-24 w-96 h-96 bg-secondary-container rounded-full blur-[120px]"></div>
+<div class="absolute -bottom-24 -right-24 w-96 h-96 bg-primary-fixed rounded-full blur-[120px]"></div>
+</div>
+<div class="max-w-7xl mx-auto px-8 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div>
+<span class="inline-block bg-secondary-container text-white px-4 py-1 rounded-full text-[10px] font-black tracking-widest uppercase mb-6">VIP Exclusive</span>
+<h2 class="text-5xl font-black text-white leading-tight mb-8">Join the <br/><span class="text-secondary-container underline decoration-8 underline-offset-8">Verona HVAC VIP Club</span></h2>
+<div class="space-y-6">
+<div class="flex gap-4">
+<span class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-secondary-container text-sm" style="font-variation-settings: 'FILL' 1;">priority_high</span>
+</span>
+<div>
+<p class="text-white font-bold">Priority Front-of-Line Service</p>
+<p class="text-white/60 text-sm">Jump to the front of the dispatch queue even during heat waves.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-secondary-container text-sm" style="font-variation-settings: 'FILL' 1;">percent</span>
+</span>
+<div>
+<p class="text-white font-bold">15% Discount on All Repairs</p>
+<p class="text-white/60 text-sm">Save hundreds on parts and labor for any service call.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-secondary-container text-sm" style="font-variation-settings: 'FILL' 1;">history_edu</span>
+</span>
+<div>
+<p class="text-white font-bold">Annual Maintenance Included</p>
+<p class="text-white/60 text-sm">Free heating and cooling inspections to extend system life.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white/5 backdrop-blur-xl border border-white/10 p-12 rounded-3xl text-center">
+<p class="text-white/80 uppercase tracking-widest text-xs font-bold mb-4">Monthly Plan</p>
+<div class="flex items-center justify-center gap-1 mb-8">
+<span class="text-2xl font-bold text-white self-start mt-2">$</span>
+<span class="text-8xl font-black text-white tracking-tighter">19</span>
+<span class="text-xl font-bold text-white/60 self-end mb-4">/mo</span>
+</div>
+<button class="w-full bg-white text-primary-container py-5 rounded-xl font-black text-xl hover:bg-secondary-container hover:text-white transition-all shadow-2xl">
+                        JOIN TODAY
+                    </button>
+<p class="text-white/40 text-xs mt-6">Cancel anytime. Terms and conditions apply.</p>
+</div>
+</div>
+</section>
+<!-- Trust/Awards Bar -->
+<section class="py-12 bg-white border-y border-outline-variant/10 overflow-hidden">
+<div class="flex items-center justify-center">
+<div class="flex whitespace-nowrap gap-12 items-center animate-marquee"><div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest"><span class="material-symbols-outlined text-secondary">verified</span> 13+ YEARS IN BUSINESS</div><div class="w-2 h-2 rounded-full bg-outline-variant/30"></div><div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest"><span class="material-symbols-outlined text-secondary">workspace_premium</span> TOP 3 HVAC CONTRACTORS SANTA CLARITA 2025</div><div class="w-2 h-2 rounded-full bg-outline-variant/30"></div><div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest"><span class="material-symbols-outlined text-secondary">thumb_up</span> 95% CUSTOMER SATISFACTION RATE</div><div class="w-2 h-2 rounded-full bg-outline-variant/30"></div><div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest"><span class="material-symbols-outlined text-secondary">engineering</span> LENNOX PREMIER DEALER &amp; EPA CERTIFIED</div><div class="w-2 h-2 rounded-full bg-outline-variant/30"></div><div class="flex items-center gap-4 text-primary-container font-black text-sm uppercase tracking-widest"><span class="material-symbols-outlined text-secondary">gavel</span> LICENSED BONDED &amp; INSURED BY CSLB</div></div>
+</div>
+</section>
+<!-- Service Areas & FAQ Section -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-20">
+<div>
+<h2 class="text-4xl font-black text-primary-container mb-8">Serving Your Community</h2>
+<div class="grid grid-cols-2 gap-4"><div class="bg-surface-container-low p-4 rounded-lg font-bold text-primary-container flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-lg">location_on</span> Santa Clarita</div><div class="bg-surface-container-low p-4 rounded-lg font-bold text-primary-container flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-lg">location_on</span> Valencia</div><div class="bg-surface-container-low p-4 rounded-lg font-bold text-primary-container flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-lg">location_on</span> Stevenson Ranch</div><div class="bg-surface-container-low p-4 rounded-lg font-bold text-primary-container flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-lg">location_on</span> Canyon Country</div><div class="bg-surface-container-low p-4 rounded-lg font-bold text-primary-container flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-lg">location_on</span> Newhall</div><div class="bg-surface-container-low p-4 rounded-lg font-bold text-primary-container flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-lg">location_on</span> Castaic</div></div>
+<div class="mt-12 rounded-2xl overflow-hidden grayscale contrast-125 border border-outline-variant/20 shadow-lg">
+<img alt="Service Map" class="w-full h-48 object-cover" data-alt="Monochrome simplified map showing the service area of Ventura County and surrounding neighborhoods" data-location="Newbury Park" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA35YnahQUZdglHiJWvCf_YQtfyqI65Q2dn1Xxv9vMFrDtJqRogamypZUYcnigifyEHHZU0wy8rE1F5c-rYo46cGUgmThEbV2qEYH9aM8eZYncYcByezmqHNrQ0lKATWYLMafo3xjM2eN1gjAAlPCaNAQ3brOlSgfEaLd-Y9VY5dHFQKSaJ-EJhBOsjtiwM5iA4nAKyptFZDergEA38-Wt6ZV7rbjpe8DS93wJebSnwpqJ8jV4EooLHKyth5jqmsVa1vOfvIvaPBXgh"/>
+</div>
+</div>
+<div>
+<h2 class="text-4xl font-black text-primary-container mb-8">Serving Your Community</h2>
+<div class="space-y-4">
+<details class="group bg-surface-container-lowest border border-outline-variant/10 rounded-xl overflow-hidden" open="">
+<summary class="flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container-low transition-colors">
+<span class="font-bold text-primary-container">How quickly can you get to my home?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="p-6 pt-0 text-on-surface-variant text-sm leading-relaxed">For AC and heating emergencies, we typically have a technician on-site in Santa Clarita or Valencia within 2-4 hours. We offer 24/7 dispatching.</div>
+</details>
+<details class="group bg-surface-container-lowest border border-outline-variant/10 rounded-xl overflow-hidden">
+<summary class="flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container-low transition-colors">
+<span class="font-bold text-primary-container">Do you offer financing for new systems?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="p-6 pt-0 text-on-surface-variant text-sm leading-relaxed">
+                                Yes! We offer flexible financing options with low monthly payments for all new system installations. Ask your technician about our current HERO and PACE programs.
+                            </div>
+</details>
+<details class="group bg-surface-container-lowest border border-outline-variant/10 rounded-xl overflow-hidden">
+<summary class="flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container-low transition-colors">
+<span class="font-bold text-primary-container">What brands do you service?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="p-6 pt-0 text-on-surface-variant text-sm leading-relaxed">
+                                We are factory-authorized dealers for major brands but our technicians are NATE-certified to repair all makes and models including Carrier, Trane, Lennox, Goodman, and Rheem.
+                            </div>
+</details>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Shell -->
+<footer class="w-full bg-[#001F3F] dark:bg-[#000613] text-[#F4FAFF] font-['Inter'] text-sm leading-relaxed py-20 px-8 flex flex-col items-center text-center gap-8">
+<div class="text-3xl font-black text-white">Verona HVAC</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="text-[#F4FAFF]/70 hover:text-white transition-colors" href="#">Offers</a>
+<a class="text-[#F4FAFF]/70 hover:text-white transition-colors" href="#">Roofing</a>
+<a class="text-[#F4FAFF]/70 hover:text-white transition-colors" href="#">Contact Us</a>
+<a class="text-[#F4FAFF]/70 hover:text-white transition-colors" href="#">Privacy Policy</a>
+</div>
+<div class="flex gap-6 mt-4">
+<span class="material-symbols-outlined cursor-pointer hover:text-secondary-container transition-all">social_leaderboard</span>
+<span class="material-symbols-outlined cursor-pointer hover:text-secondary-container transition-all">local_activity</span>
+<span class="material-symbols-outlined cursor-pointer hover:text-secondary-container transition-all">star_rate</span>
+</div>
+<div class="max-w-2xl text-[#F4FAFF]/50 mt-8">© 2024 Verona HVAC. Santa Clarita HVAC Professionals. Licensed, Bonded, and Insured by CSLB. All rights reserved.</div>
+</footer>
+<!-- BottomNavBar Mobile Only Shell -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-6 pb-4 pt-2 md:hidden bg-white/70 dark:bg-[#001F3F]/70 backdrop-blur-md border-t border-[#001F3F]/10 shadow-[0_-20px_40px_rgba(0,31,63,0.06)] rounded-t-2xl">
+<a class="flex flex-col items-center justify-center text-[#001F3F] dark:text-[#F4FAFF] p-2 hover:opacity-90" href="tel:6614499765">661-449-9765</a>
+<a class="flex flex-col items-center justify-center bg-[#FF851B] text-white rounded-xl p-3 px-6 shadow-lg Active: scale-98 transition-transform hover:opacity-90" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">calendar_month</span>
+<span class="font-['Inter'] text-[10px] font-bold uppercase tracking-widest mt-1">Book Online</span>
+</a>
+</nav>
+<!-- Chat Widget -->
+<button class="fixed bottom-8 right-8 z-[100] bg-secondary text-white px-6 py-4 rounded-full shadow-2xl flex items-center gap-3 hover:-translate-y-1 transition-all hidden lg:flex">
+<div class="relative">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">chat</span>
+<span class="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full border-2 border-secondary"></span>
+</div>
+<div class="text-left">
+<p class="text-[10px] font-bold uppercase leading-none opacity-80">Online Now</p>
+<p class="text-sm font-black">Chat With Us</p>
+</div>
+</button>
+</body></html>
